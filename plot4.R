@@ -20,7 +20,7 @@ plot4 <- function(){
         with(use_data, {
                 #plot1
                 plot(  x = use_data$DateTime, y = use_data$Global_active_power
-                       , ylab = "Global Active Power (kilowatts)", xlab = "", type = "l")
+                       , ylab = "Global Active Power", xlab = "", type = "l")
                 
                 #plot2
                 plot(  x = use_data$DateTime, y = use_data$Voltage
