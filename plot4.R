@@ -35,6 +35,9 @@ plot4 <- function(){
                 
                 #Sub_metering_3
                 lines(x = use_data$DateTime, y = use_data$Sub_metering_3, col = "blue")
+                
+                legend("topright", legend = c("Sub_metering_1", "Sub_metering_2","Sub_metering_3")
+                       ,col = c("black", "red", "blue"), bty="n", lty = 1, cex = 0.9)
                 #---------------------------------------------------------------------------------
                 
                 #plot4
